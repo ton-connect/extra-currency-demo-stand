@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path((?!tonconnect-manifest\\.json$|tonconnect-manifest\\.vercel\\.json$).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "extra-currency-demo-stand-demo-dapp.vercel.app"
+        }
+      ],
+      "destination": "https://extra-currency.legacy.ton-connect.io/:path",
+      "permanent": true
+    }
+  ]
+}
