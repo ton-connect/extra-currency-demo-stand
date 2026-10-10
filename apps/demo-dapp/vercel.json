@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/:path((?!tonconnect-manifest\\.json$|tonconnect-manifest\\.vercel\\.json$).*)",
+      "source": "/:path(.*)",
       "has": [
         {
           "type": "host",
